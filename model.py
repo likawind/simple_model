@@ -7,5 +7,5 @@ class Function:
         #
         # Returns: pd.DataFrame:
         #   a new dataframe which will be captured in output table
-        df['new'] = df['review']
+        df['new'] = df['review'].str.lower()
         return df
