@@ -1,12 +1,10 @@
 import pandas as pd
 class Function:
-    def predict(self, df, wine):
+    def predict(self):
         # Inputs:
         # df: pd.DataFrame:
         #   A dataframe representing the inputs.
         #
         # Returns: pd.DataFrame:
         #   a new dataframe which will be captured in output table
-        df['new'] = df['review'].str.upper()
-        df['color'] = wine['color'].iloc[0]
-        return df
+        return pd.DataFrame.from_dict({'col_1': [3, 2, 1, 0], 'col_2': ['a', 'b', 'c', 'd']})
