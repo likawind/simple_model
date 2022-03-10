@@ -1,1 +1,1 @@
-SELECT * from hotel_reviews;
+SELECT * FROM hotel_reviews;
