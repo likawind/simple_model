@@ -1,5 +1,5 @@
 import pandas as pd
+from .utils.helper import _predict
 class Function:
     def predict(self, df):
-        df['new'] = df['review']
-        return df
+        return _predict(df)
