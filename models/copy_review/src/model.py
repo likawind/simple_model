@@ -1,5 +1,5 @@
 import pandas as pd
-from ..utils.helper import _predict
+from utils.helper import _predict
 
 class Model:
     def run(self, df):
